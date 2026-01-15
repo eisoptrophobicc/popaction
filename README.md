@@ -41,6 +41,8 @@ rather than production deployment or scalability.
 1. Install MySQL
 2. Create `config.json` using `config.example.json`
 3. Add your local MySQL credentials
-4. Run:
+4. Ensure Python 3.x and MySQL are installed.
+5. Run:
 ```bash
+pip install -r requirements.txt
 python popaction.py
